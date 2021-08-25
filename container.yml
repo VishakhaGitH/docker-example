@@ -8,6 +8,6 @@
       name: "stop the container"
       shell: "docker stop jon"
       name: "remove container"
-      shell: "docker rm jon"   
+      shell: "docker rm jon"  
       name: "create docker container"
       shell: "docker run -d --name jon -p 1234:8080 vishakha20/jon"
